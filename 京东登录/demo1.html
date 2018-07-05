@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>京东-欢迎登录</title>
+    <style>
+        #logo{
+            width: 60%;
+            position: relative;
+            left: 50px;
+        }
+        #B{
+            width: 200px;
+            font-size: 12px;
+           position: relative;
+            left: 1250px;
+            bottom: 20px;
+        }
+        .cont-wrapper{
+            background-color: rgb(255,248,240);
+            color: rgb(153,153,153);
+            position: relative;
+            text-align: center;
+            line-height: 50px;
+            font-size: 12px;
+            /*bottom: 10px;*/
+            /*left: 270px;*/
+        }
+        .D{
+            position: relative;
+            /*left: 100px;*/
+            text-align: center;
+            background-color: rgb(190,216,191);
+            bottom: 12px;
+        }
+        .E{
+            font-size: 12px;
+            color: rgb(153,153,153);
+            text-align: center;
+        }
+        .login-form{
+            font-size: 12px;
+            background-color: rgb(255,248,240);
+            color: rgb(153,153,153);
+            text-align: center;
+            line-height: 30px;
+            width: 350px;
+            position: relative;
+            left: 1000px;
+            bottom: 550px;
+        }
+        a span{
+            color: red;
+        }
+    </style>
+    <script src="js/jquery-1.12.4.js"></script>
+    <script>
+        $(function () {
+            $("#B a").mouseover(function () {
+                $(this).css({"color":"red","text-decoration":"underline"})
+            }) .mouseout(function () {
+                $(this).css({"color":"rgb(153,153,153)","text-decoration":"none"})
+            })
+        })
+        $(function () {
+            $(".cont-wrapper span").mouseover(function () {
+                $(this).css({"color":"red","text-decoration":"underline"})
+            }).mouseout(function () {
+                $(this).css({"color":"rgb(153,153,153)","text-decoration":"none"})
+            })
+        })
+        $(function () {
+            $(".E p").mouseover(function () {
+                $(this).css({"color":"red","text-decoration":"underline"})
+            }).mouseout(function () {
+                $(this).css({"color":"rgb(153,153,153)","text-decoration":"none"})
+            })
+        })
+    </script>
+</head>
+<body>
+<div class="w">
+    <div id="logo">
+        <img src="../项目注册/images/logo-201305-b.png" alt="" width="170" height="60">
+        <img src="../项目注册/images/l-icon.png">
+    </div>
+    <div id="B">
+        <a><img src="../项目注册/images/q-icon.png">登录页面，调查问卷</a>
+    </div>
+    <div class="cont-wrapper">
+        
+        <a><img src="../项目注册/images/icon-tips.png">依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号验证！ 新版<span>《京东隐私政策》</span>已上线，将更有利于保护您的个人隐私。</a>
+    </div>
+
+    <div class="D">
+        <img src="../项目注册/images/tupian.jpg">
+    </div>
+    <div class="E">
+        <p><span>关于我们</span>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <span>联系我们</span>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <span>人才招聘</span>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <span>商家入驻</span>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <span>广告服务</span>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <span>手机京东</span>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <span>友情链接</span>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <span>销售联盟</span>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <span>京东社区</span>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <span>京东公益</span>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <span>EnglishSite</span></p>
+        <p><span>Copyright © 2004-2018  京东JD.com 版权所有</span></p>
+    </div>
+    <div class="login-form">
+        <a><img src="../项目注册/images/icon-tips.png">京东不会以任何理由要求您转账汇款，谨防诈骗。</a>
+        </div>
+    <div class="login-tab login-tab-1">
+        <span>扫码登陆</span><span>账号登陆</span>
+    </div>
+    <img src="../项目注册/images/show.png">
+            <a>打开<span>手机京东 </span>&nbsp;&nbsp;&nbsp;&nbsp;扫描二维码</a>
+        <div class="K">
+            <a>免输入</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a>更快</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a>更安全</a>
+        </div>
+        <div class="H">
+            <img src="../项目注册/images/QQ-weixin.png">QQ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="../项目注册/images/QQ-weixin.png">微信
+        </div>
+    </div>
+</body>
+</html>
